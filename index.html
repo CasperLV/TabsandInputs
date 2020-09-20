@@ -31,11 +31,9 @@
     </header>
     <div>
         <div class="login">
-            <form action="/index.php" method="POST">
+            <form action="#" method="POST">
                 <div class="login_box">
-                    <label for="user">Username:</label>
                     <input type="text" name="username" id="username" placeholder="username">
-                    <label for="password">Password:</label>
                     <input type="password" name="user_password" id="user_password" placeholder="password">
                     <button type="submit">Log in</button>
                 </div>
@@ -98,9 +96,30 @@
         </tbody>
 
         </table><p>dati iegūti ev-database.org</p>
-    </div> 
+    </div>
+    <br>
+    <br>
+    <h2>Aptauja!!!</h2> 
     <div>
-      form  
-    </div>   
+      <form action="/homework 18.09/index.php" method="POST">
+        <div class="survey">
+            <p>Vai Jūs esat lietojis elektrisko automšīnu?</p>
+            <label for="text">Jā</label>
+            <input type="radio" name="aptauja" value="jā">
+            <label for="text">Nē</label>
+            <input type="radio" name="aptauja" value="nē">
+            <br>
+            <p>Kādu elektroauto Jūs vēlētos iegādāties?</p>
+            <input type="text" name="auto" id="Aptauja">
+            <p>Tavs viedoklis par elektrisko automšīnu?</p>
+            <textarea name="comment" id="aptauja" cols="30" rows="10"></textarea><br>
+            <input type="submit" value="Nosūtīt">
+        </div>
+    </form>  
+    </div>
+    <footer>
+        <p>Autors: Kaspars Rubins</p>
+        <a href="mailto:kaspars.rubins@gmail.com">kaspars.rubins@gmail.com</a></p>
+    </footer>   
 </body>
 </html>
