@@ -19,6 +19,11 @@
             text-align: center;
         }
 
+        .login_box {
+            position: relative;
+            float: right;
+        }
+         
     </style>
 </head>
 <body>
@@ -26,7 +31,15 @@
     </header>
     <div>
         <div class="login">
-
+            <form action="/index.php" method="POST">
+                <div class="login_box">
+                    <label for="user">Username:</label>
+                    <input type="text" name="username" id="username" placeholder="username">
+                    <label for="password">Password:</label>
+                    <input type="password" name="user_password" id="user_password" placeholder="password">
+                    <button type="submit">Log in</button>
+                </div>
+            </form>
         </div>
         <h1>Elektrisko auto blogs</h1>
         <img src="images\Renault_Zoe.jpg" alt="image">
@@ -85,6 +98,9 @@
         </tbody>
 
         </table><p>dati iegūti ev-database.org</p>
-    </div>    
+    </div> 
+    <div>
+      form  
+    </div>   
 </body>
 </html>
